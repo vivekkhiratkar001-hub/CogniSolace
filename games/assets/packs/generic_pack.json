@@ -1,0 +1,85 @@
+{
+  "region_id": "generic",
+  "region_name": "Familiar Home Items",
+  "language_code": "en",
+  "items": [
+    {
+      "id": "gen_tea",
+      "title": "Warm Cup of Tea",
+      "subtitle": "Soothing daily tea",
+      "category": "market_beverage",
+      "image_asset": "assets/images/default/tea_cup.png",
+      "audio_prompt": "assets/audio/default/tea_prompt.mp3"
+    },
+    {
+      "id": "gen_glasses",
+      "title": "Reading Glasses",
+      "subtitle": "Glasses for reading news",
+      "category": "personal_item",
+      "image_asset": "assets/images/default/glasses.png",
+      "audio_prompt": "assets/audio/default/glasses_prompt.mp3"
+    },
+    {
+      "id": "gen_radio",
+      "title": "Classic Radio",
+      "subtitle": "Familiar songs and evening news",
+      "category": "personal_item",
+      "image_asset": "assets/images/default/radio.png",
+      "audio_prompt": "assets/audio/default/radio_prompt.mp3"
+    },
+    {
+      "id": "gen_walking_stick",
+      "title": "Wooden Walking Stick",
+      "subtitle": "Helpful companion for morning walks",
+      "category": "personal_item",
+      "image_asset": "assets/images/default/stick.png",
+      "audio_prompt": "assets/audio/default/stick_prompt.mp3"
+    },
+    {
+      "id": "gen_newspaper",
+      "title": "Morning Newspaper",
+      "subtitle": "Daily news and morning reading",
+      "category": "personal_item",
+      "image_asset": "assets/images/default/newspaper.png",
+      "audio_prompt": "assets/audio/default/newspaper_prompt.mp3"
+    },
+    {
+      "id": "gen_bananas",
+      "title": "Fresh Sweet Bananas",
+      "subtitle": "Ripe healthy yellow fruit",
+      "category": "market_fruit",
+      "image_asset": "assets/images/default/bananas.png",
+      "audio_prompt": "assets/audio/default/bananas_prompt.mp3"
+    }
+  ],
+  "routine_steps": [
+    {
+      "id": "gen_rt_wake",
+      "step_order": 1,
+      "title": "Wake up Gently",
+      "subtitle": "Greeting the peaceful morning sunlight",
+      "icon_name": "wb_sunny"
+    },
+    {
+      "id": "gen_rt_brush",
+      "step_order": 2,
+      "title": "Wash Face & Freshen Up",
+      "subtitle": "Splash cool water and feel refreshed",
+      "icon_name": "water_drop"
+    },
+    {
+      "id": "gen_rt_tea",
+      "step_order": 3,
+      "title": "Morning Cup of Tea",
+      "subtitle": "Sip warm soothing tea",
+      "icon_name": "free_breakfast"
+    },
+    {
+      "id": "gen_rt_meds",
+      "step_order": 4,
+      "title": "Take Morning Medicine",
+      "subtitle": "Doctor prescribed morning wellness pill",
+      "icon_name": "medication"
+    }
+  ]
+}

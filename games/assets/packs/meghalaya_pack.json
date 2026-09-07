@@ -1,0 +1,77 @@
+{
+  "region_id": "meghalaya",
+  "region_name": "Meghalaya",
+  "language_code": "kha",
+  "items": [
+    {
+      "id": "ml_orange",
+      "title": "Sohra Khasi Orange",
+      "subtitle": "Sweet mountain citrus fruit",
+      "category": "market_fruit",
+      "image_asset": "assets/images/regional/khasi_orange.png",
+      "audio_prompt": "assets/audio/meghalaya/orange_prompt.mp3"
+    },
+    {
+      "id": "ml_basket",
+      "title": "Khoh (Cane Basket)",
+      "subtitle": "Conical woven bamboo carrying basket",
+      "category": "market_craft",
+      "image_asset": "assets/images/regional/khoh_basket.png",
+      "audio_prompt": "assets/audio/meghalaya/basket_prompt.mp3"
+    },
+    {
+      "id": "ml_turmeric",
+      "title": "Lakadong Turmeric",
+      "subtitle": "High-curcumin golden aromatic root",
+      "category": "market_spice",
+      "image_asset": "assets/images/regional/lakadong.png",
+      "audio_prompt": "assets/audio/meghalaya/turmeric_prompt.mp3"
+    },
+    {
+      "id": "ml_bamboo_shoot",
+      "title": "Fermented Bamboo Shoot",
+      "subtitle": "Tangy tender shoots for cooking",
+      "category": "market_vegetable",
+      "image_asset": "assets/images/regional/bamboo_shoot.png",
+      "audio_prompt": "assets/audio/meghalaya/shoot_prompt.mp3"
+    },
+    {
+      "id": "ml_kwai",
+      "title": "Kwai (Betel Leaf & Nut)",
+      "subtitle": "Traditional hospitable offering",
+      "category": "market_cultural",
+      "image_asset": "assets/images/regional/kwai.png",
+      "audio_prompt": "assets/audio/meghalaya/kwai_prompt.mp3"
+    }
+  ],
+  "routine_steps": [
+    {
+      "id": "ml_rt_morning_tea",
+      "step_order": 1,
+      "title": "Morning Sha Shiah (Red Tea)",
+      "subtitle": "Warm tea with ginger",
+      "icon_name": "free_breakfast"
+    },
+    {
+      "id": "ml_rt_garden",
+      "step_order": 2,
+      "title": "Tending the Garden",
+      "subtitle": "Checking flowers and kitchen plants",
+      "icon_name": "yard"
+    },
+    {
+      "id": "ml_rt_market",
+      "step_order": 3,
+      "title": "Iewduh Market Walk",
+      "subtitle": "Strolling through the neighborhood stall",
+      "icon_name": "storefront"
+    },
+    {
+      "id": "ml_rt_family",
+      "step_order": 4,
+      "title": "Sharing Kwai with Family",
+      "subtitle": "Welcoming guests and conversation",
+      "icon_name": "favorite"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "region_id": "assam",
+  "region_name": "Assam",
+  "language_code": "as",
+  "items": [
+    {
+      "id": "as_tea",
+      "title": "Chah (Assam Tea)",
+      "subtitle": "Fresh garden tea leaves",
+      "category": "market_beverage",
+      "image_asset": "assets/images/regional/assam_tea.png",
+      "audio_prompt": "assets/audio/assam/tea_prompt.mp3"
+    },
+    {
+      "id": "as_gamosa",
+      "title": "Gamosa",
+      "subtitle": "Traditional woven red & white towel",
+      "category": "market_craft",
+      "image_asset": "assets/images/regional/gamosa.png",
+      "audio_prompt": "assets/audio/assam/gamosa_prompt.mp3"
+    },
+    {
+      "id": "as_pitha",
+      "title": "Til Pitha",
+      "subtitle": "Crispy rice rolls with sesame",
+      "category": "market_snack",
+      "image_asset": "assets/images/regional/til_pitha.png",
+      "audio_prompt": "assets/audio/assam/pitha_prompt.mp3"
+    },
+    {
+      "id": "as_bhut_jolokia",
+      "title": "Bhut Jolokia",
+      "subtitle": "Aromatic local king chilli",
+      "category": "market_vegetable",
+      "image_asset": "assets/images/regional/bhut_jolokia.png",
+      "audio_prompt": "assets/audio/assam/chilli_prompt.mp3"
+    },
+    {
+      "id": "as_dhekia",
+      "title": "Dhekia Xak",
+      "subtitle": "Fresh tender fiddlehead ferns",
+      "category": "market_vegetable",
+      "image_asset": "assets/images/regional/dhekia.png",
+      "audio_prompt": "assets/audio/assam/dhekia_prompt.mp3"
+    },
+    {
+      "id": "as_kaji_nemu",
+      "title": "Kaji Nemu",
+      "subtitle": "Elongated juicy Assam lemon",
+      "category": "market_fruit",
+      "image_asset": "assets/images/regional/kaji_nemu.png",
+      "audio_prompt": "assets/audio/assam/nemu_prompt.mp3"
+    }
+  ],
+  "routine_steps": [
+    {
+      "id": "as_rt_tea",
+      "step_order": 1,
+      "title": "Morning Cup of Red Tea (Ronga Chah)",
+      "subtitle": "Start the day with warm tea",
+      "icon_name": "free_breakfast"
+    },
+    {
+      "id": "as_rt_bath",
+      "step_order": 2,
+      "title": "Freshen up with Gamosa",
+      "subtitle": "Wash face and dry with clean Gamosa",
+      "icon_name": "clean_hands"
+    },
+    {
+      "id": "as_rt_namghar",
+      "step_order": 3,
+      "title": "Morning Prayer & Diya",
+      "subtitle": "Light the earthen lamp for prayer",
+      "icon_name": "self_improvement"
+    },
+    {
+      "id": "as_rt_lunch",
+      "step_order": 4,
+      "title": "Midday Meal with Rice & Dal",
+      "subtitle": "Enjoy hot freshly cooked rice",
+      "icon_name": "restaurant"
+    }
+  ]
+}
