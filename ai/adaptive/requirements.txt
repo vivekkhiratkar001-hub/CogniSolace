@@ -1,0 +1,4 @@
+# CogniSolace - Adaptive Learning Module Dependencies
+# Note: This module is built using pure Python standard library modules (zero external ML dependencies).
+# Optional development/testing tool:
+pytest>=7.0.0
