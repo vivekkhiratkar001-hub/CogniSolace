@@ -1,0 +1,101 @@
+COGNISOLACE COGNITIVE GAMES
+
+OVERVIEW
+CogniSolace has five planned cognitive activities: Know My People, Memory of Home, Daily Market, My Day, and Pattern Path. They are intended to be simple, dementia-friendly, low-pressure practice activities for memory, recognition, attention, working memory, sequencing, pattern recognition, and auditory association. Activities should use familiar personal or cultural material where possible, adapt to the user, and support progressive difficulty. They are not intended to diagnose, treat, prevent, or cure dementia.
+
+Implementation status: The five games and interaction modes in this document are planned or proposed game specifications. This knowledge base does not confirm that the games, face recognition, voice recognition, caregiver configuration, scoring, or other game features are implemented.
+
+1. KNOW MY PEOPLE
+
+Purpose: Know My People helps a user practice remembering and recognizing familiar people.
+
+Primary cognitive skills: recognition and memory.
+Secondary cognitive skill: auditory association.
+
+Basic gameplay: The user identifies a familiar person from visual and, in later planned levels, auditory information. Example interactions include "Who is this person?", "What is this person's relationship to you?", and identifying a person from a voice.
+
+Progressive difficulty:
+- Level 1, Face to Name: The user sees a person's face and identifies their name.
+- Level 2, Face to Relationship: The user identifies the person's relationship, such as a family member or other familiar person.
+- Level 3, Remember Multiple Faces: The user sees multiple familiar people and is later asked to remember or recognize them.
+- Level 4, Voice to Face: The user hears a voice and identifies the corresponding person or face.
+- Level 5, Face plus Voice to Person: The user uses visual and auditory information together to identify the person.
+
+Adaptation and personalization: Use people who are familiar and meaningful to the individual, with culturally and personally appropriate names and relationships. Difficulty can progress from one visual cue to multiple faces and then to combined visual and auditory cues.
+
+Implementation status: Face-to-name, face-to-relationship, multiple-face, voice-to-face, and face-plus-voice modes are planned interaction modes. Do not assume that actual face-recognition or voice-recognition technology is implemented.
+
+2. MEMORY OF HOME
+
+Purpose: Memory of Home helps a user practice remembering familiar household objects and their locations.
+
+Primary cognitive skill: visual memory.
+Secondary cognitive skill: object recognition.
+
+Basic gameplay: The activity shows familiar objects, hides them, and asks the user to recall what was present, identify a missing object, or remember where an object was located. An example question is, "Which object was beside the cup?"
+
+Progressive difficulty:
+1. Show objects.
+2. Hide objects.
+3. Recall objects.
+4. Identify the missing object.
+5. Remember object positions and relationships between objects.
+
+Adaptation and personalization: Prefer culturally or personally familiar household objects and arrangements where possible. The source specification does not provide a fixed object list, so no specific object list is assumed here.
+
+Implementation status: The show, hide, recall, missing-object, and position-recall sequence is planned game behavior. This document does not confirm that the activity or any object-recognition technology is implemented.
+
+3. DAILY MARKET
+
+Purpose: Daily Market helps a user practice remembering shopping items and following instructions.
+
+Primary cognitive skills: working memory and attention.
+Additional cognitive skills: sequencing and ordered action.
+
+Basic gameplay: The user remembers a shopping list, attends to relevant items among distractions, follows more than one instruction, and performs requested actions in order. Example shopping items include Rice, Tea, and Salt.
+
+Progressive difficulty:
+- Stage 1: Remember a small shopping list, such as Rice, Tea, Salt.
+- Stage 2: Increase the number of items, such as Rice, Tea, Salt, Oil.
+- Stage 3: Introduce distractor items.
+- Stage 4: Require multiple instructions.
+- Stage 5: Require ordered actions, for example, "Buy rice first, then tea, then salt."
+
+Adaptation and personalization: Shopping items, language, instructions, and list complexity can be adapted to familiar cultural and personal contexts. Difficulty progresses by increasing list size, distractions, instruction count, and order requirements.
+
+Implementation status: The stages and shopping examples are planned specifications. This document does not claim that shopping simulation, scoring, or performance measurement has already been implemented.
+
+4. MY DAY
+
+Purpose: My Day helps a user practice routine recall and sequencing by remembering and arranging familiar daily activities.
+
+Primary cognitive skills: routine recall and sequencing.
+
+Basic gameplay: The user recalls familiar activities and places them in the correct order. Example routine: Wake up, Breakfast, Medicine, Walk, Lunch. An example interaction is, "What comes after breakfast?" or "Arrange these activities in the order they happen."
+
+Progressive difficulty: Begin with a small set of familiar routine activities, then ask the user to recall or arrange more activities and answer questions about their order. The exact difficulty steps are not specified in the project requirements.
+
+Adaptation and personalization: The long-term design allows a caregiver to configure the user's actual routine, so the activity can use familiar daily activities. Caregiver configuration is planned functionality and is not confirmed as implemented.
+
+Implementation status: Routine recall and sequencing are the planned activity. This document does not claim that caregiver configuration, routine storage, or any related interface already exists.
+
+5. PATTERN PATH
+
+Purpose: Pattern Path helps a user recognize, complete, and remember patterns.
+
+Primary cognitive skills: attention and pattern recognition.
+Secondary cognitive skill: working memory.
+
+Basic gameplay: The user observes a sequence, identifies its repeating or changing rule, completes the next element, and in advanced play reproduces a sequence after it is hidden. Example interaction: "Red, Blue, Red, Blue, what comes next?"
+
+Progressive difficulty:
+- Level 1 example: Red, Blue, Red, Blue, ?
+- Level 2 example: Red, Blue, Green, Red, Blue, Green, ?
+- Advanced mode: Observe, Hide, Reproduce.
+
+Adaptation and personalization: Colors are examples, not the only possible pattern elements. Patterns may use other suitable visual or non-language-dependent elements. The activity should remain relatively language-independent, making it suitable for future multilingual use.
+
+Implementation status: Pattern completion and observe-hide-reproduce play are planned specifications. This document does not claim that a particular set of colors, elements, or multilingual interface is already implemented.
+
+GENERAL GUIDANCE FOR THESE GAMES
+Use clear, familiar wording and culturally or personally familiar material where possible. Activities should be adaptable to different users and support progressive difficulty. They are cognitive practice and support activities, not medical assessment or treatment. The existing repository does not establish game scores, difficulty numbers, player ages, session duration, or medical effectiveness statistics.

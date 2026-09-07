@@ -1,0 +1,66 @@
+COGNISOLACE GAMES FAQ
+
+Status note: The five games and interaction modes below are planned or proposed specifications for the CogniSolace knowledge base. This FAQ does not confirm that the games, face recognition, voice recognition, caregiver configuration, scoring, or other game features are currently implemented.
+
+Q: What games are available in CogniSolace?
+A: The planned CogniSolace cognitive games are Know My People, Memory of Home, Daily Market, My Day, and Pattern Path. They provide practice with memory, recognition, attention, working memory, sequencing, pattern recognition, and auditory association. They are cognitive activities, not diagnosis or treatment.
+
+Q: What is Know My People?
+A: Know My People is a planned activity for practicing recognition and memory of familiar people. It can use visual information and, in later planned levels, auditory association.
+
+Q: What skills does Know My People target?
+A: Its primary skills are recognition and memory. Its secondary skill is auditory association.
+
+Q: How does Know My People progress in difficulty?
+A: The planned levels progress from Face to Name, to Face to Relationship, to Remember Multiple Faces, to Voice to Face, and finally to Face plus Voice to Person. The last two levels are planned voice and visual interaction modes; actual voice-recognition or face-recognition technology is not confirmed as implemented.
+
+Q: What is Memory of Home?
+A: Memory of Home is a planned visual-memory activity about familiar household objects and their locations. It shows objects, hides them, asks the user to recall them, asks the user to identify a missing object, and can ask the user to remember object positions.
+
+Q: Which game is about remembering household objects?
+A: Memory of Home practices remembering familiar household objects and their locations. A planned example question is, "Which object was beside the cup?"
+
+Q: Which game uses familiar household objects?
+A: Memory of Home uses culturally or personally familiar household objects where possible. The project specification does not provide a fixed object list.
+
+Q: What is Daily Market?
+A: Daily Market is a planned shopping-memory activity. It practices working memory and attention, with additional practice in sequencing and following ordered instructions.
+
+Q: What cognitive skills does Daily Market practice?
+A: Daily Market practices working memory and attention. Its later stages also practice sequencing and ordered actions.
+
+Q: Which game helps with shopping memory?
+A: Daily Market helps the user remember shopping items, ignore distractors, follow multiple instructions, and perform actions in order. Planned examples include Rice, Tea, Salt, and Oil.
+
+Q: Which game uses shopping-related tasks?
+A: Daily Market uses shopping-related tasks such as remembering a list, noticing distractor items, following multiple instructions, and buying items in a required order.
+
+Q: What is My Day?
+A: My Day is a planned routine-recall and sequencing activity. The user remembers and arranges familiar daily activities, such as Wake up, Breakfast, Medicine, Walk, and Lunch.
+
+Q: How can My Day use a user's familiar routine?
+A: The long-term design proposes that a caregiver can configure the user's actual routine, allowing the activity to use familiar daily activities. Caregiver configuration is planned functionality, not confirmed current functionality.
+
+Q: Which game uses daily routines?
+A: My Day uses familiar daily routines and practices routine recall and sequencing.
+
+Q: What is Pattern Path?
+A: Pattern Path is a planned activity for recognizing, completing, and remembering patterns. It targets attention and pattern recognition, with working memory as a secondary skill.
+
+Q: Which game focuses on pattern recognition?
+A: Pattern Path focuses on pattern recognition and attention. Its advanced mode is Observe, Hide, Reproduce.
+
+Q: Which game can work with less language?
+A: Pattern Path is intended to be relatively language-independent and suitable for future multilingual use. Colors are examples of pattern elements, not the only possible elements.
+
+Q: Which game uses voice and face together?
+A: Know My People has a planned Level 5 called Face plus Voice to Person. The user would use visual and auditory information together to identify a person. This planned interaction does not confirm that voice-recognition or face-recognition technology is implemented.
+
+Q: Which game uses familiar people?
+A: Know My People uses familiar people and practices recognizing their names, relationships, faces, and, in planned later levels, voices.
+
+Q: Are these games medical treatments or diagnostic tests?
+A: No. They are described as cognitive activities, memory exercises, attention practice, and support activities. The project specification does not make claims that they diagnose, treat, prevent, or cure dementia.
+
+Q: Can the games be personalized?
+A: The planned design supports personal and cultural familiarity. Know My People can use meaningful familiar people, Memory of Home can use familiar household objects, Daily Market can use familiar shopping contexts, and My Day can use a user's familiar routine. These are adaptation possibilities, and the repository does not confirm that all related configuration features are implemented.
