@@ -1,0 +1,23 @@
+name: cognisolace_games
+description: Cognitive Gaming and Memory Assistance module for elderly dementia patients in the North Eastern Region (CogniSolace SIH Project).
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^4.2.5
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/packs/
